@@ -9,6 +9,9 @@ body {
 .Pahc-logo {
     max-width: 100px;
     float: left;
+    position: relative;
+    top: 5px;
+    left: 100px;
 }
 
 #Topbar-static {
@@ -26,18 +29,51 @@ body {
     font-size: large;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
+    left: calc(50% - (700px / 2));
 }
 
 #Navbar-sticky {
     background-color: antiquewhite;
+    margin: 10px
 }
 /* Navbar end */
 
 /* Event Start */
 .events {
     max-height: 500px;
+    text-align: center;
+    position: relative;
+    left: calc(50% - (700px / 2));
+    top: calc(50% - (500px / 2));
+}
+.banner{
+    position: relative; 
+    overflow: auto; 
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    padding: 0px;
 }
 
+.banner ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.banner li { 
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    height: 400px;
+    width: 800px;
+     }
+
+.banner ul li img{
+    padding: 0px;
+    margin: 0px;
+}
 /* Event end */
 
 /* About start */
@@ -54,6 +90,8 @@ body {
 }
 #Missions-statement {
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .Core-pic {
     border-radius: 50%;
@@ -78,7 +116,7 @@ body {
 
 /* Programs start*/
 .carousel-container {
-    width: 960px;
+    width: 1000px;
     top: calc(50% - (500px / 2));
     left: calc(50% - (960px / 2));
     height: 500px;
@@ -94,13 +132,79 @@ body {
 }
 
 .carousel-item {
-    width: 960px;
+    width: 500px;
     position: relative;
     height: 500px;
     float: left;
+    margin: 20px;
+    background-color: aliceblue;
+}
+.img-scaled {
+    width: 100%;
+    height: 100%;
+}
+
+.img-scaled-wh {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+.Program-title {
+    text-align: -webkit-center;
+    margin: 20px;
+}
+.Program-description {
+    margin: 20px;
+    text-align: -webkit-center;
 }
 /* Programs end */
 
 /* Contact start */
+.contact-card {
+    float: left;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 20px;
 
+}
+.social-media {
+    max-height: 50px;
+    margin: 20px;
+}
+#contact-content {
+    background-color: beige;
+    height: 300px;
+}
+.info {
+    padding: 20px
+}
 /* Contact end */
