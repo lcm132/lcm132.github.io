@@ -11,11 +11,10 @@ body {
     float: left;
     position: relative;
     top: 5px;
-    left: 100px;
+    left: 50px;
 }
 
 #Topbar-static {
-    background-color: aliceblue;
     width: 100%;
 }
 #title {
@@ -23,6 +22,7 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
+    letter-spacing: 5px;
 }
 .nav-item {
     display: -webkit-inline-box;
@@ -31,11 +31,20 @@ body {
     padding-right: 50px;
     position: relative;
     left: calc(50% - (700px / 2));
+    color: #FFF
 }
 
-#Navbar-sticky {
-    background-color: antiquewhite;
-    margin: 10px
+.Navbar-sticky {
+    background-color: aquamarine;
+    padding: 10px;
+    height:22px;
+    width: 100%;
+}
+.Navbar-sticky-fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
 }
 /* Navbar end */
 
@@ -80,41 +89,51 @@ body {
 
 
 #Mission-statement-section {
-    background-color: salmon;
     padding: 100px;
+    padding-bottom: 200px
 }
 #Mission-statement-header {
     font-size: xx-large;
     text-align: center;
     padding: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
 }
 #Missions-statement {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+    font-size: x-large;
+    font-weight: 300;
 }
 .Core-pic {
     border-radius: 50%;
-    max-height: 100px;
+    max-height: 125px;
     float: left;
     display: inline-block;
-    margin: 30px;
+    margin-left: 25px;
+    margin-right: 50px;
     position: relative;
     top: calc(50% - (150px / 2));
-    left: calc(50% - (960px / 2));
+    left: calc(50% - (1200px / 2));
 }
 #Core-section {
-    height: 400px;
+    height: 600px;
     background-color: aquamarine;
 }
 .Core-container {
-    background-color: antiquewhite;
     height: 150px;
-    margin: 10px;
+    margin: 30px;
 }
 /* About end */
 
 /* Programs start*/
+#Programs-section {
+    background-color: salmon;
+}
+.white {
+    color: #FFF;
+}
 .carousel-container {
     width: 1000px;
     top: calc(50% - (500px / 2));
@@ -122,6 +141,7 @@ body {
     height: 500px;
     overflow: hidden;
     position: relative;
+    padding-bottom: 20px;
 }
 
 #carousel {
@@ -133,11 +153,12 @@ body {
 
 .carousel-item {
     width: 500px;
+    background-color: #FFF;
     position: relative;
-    height: 500px;
+    height: 450px;
     float: left;
     margin: 20px;
-    background-color: aliceblue;
+    box-shadow: 1px 1px 15px #B73325;
 }
 .img-scaled {
     width: 100%;
@@ -155,7 +176,7 @@ body {
     height: 40px;
     padding: 10px;
     left: 60px;
-    top: 50%;
+    top: 75%;
     margin-top: -30px;
     cursor: pointer;
     border-radius: 50%;
@@ -168,7 +189,7 @@ body {
     height: 40px;
     padding: 10px;
     right: 60px;
-    top: 50%;
+    top: 75%;
     margin-top: -30px;
     cursor: pointer;
     border-radius: 50%;
@@ -178,17 +199,18 @@ body {
 .Program-title {
     text-align: -webkit-center;
     margin: 20px;
+    font-weight: bold;
 }
 .Program-description {
-    margin: 20px;
+    margin: 50px;
     text-align: -webkit-center;
+    font-weight: 300;
 }
 /* Programs end */
 
 /* Contact start */
 .contact-card {
     float: left;
-    background-color: antiquewhite;
     height: 300px;
     width: 300px;
     margin-left: 100px;
@@ -201,10 +223,11 @@ body {
     margin: 20px;
 }
 #contact-content {
-    background-color: beige;
-    height: 300px;
+    height: 100px;
 }
 .info {
     padding: 20px
+    font-size: larger;
+    font-weight: 300;
 }
 /* Contact end */

@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-      $("#carousel-next").click(function() {
+     $("#carousel-next").click(function() {
 
-    if ( parseInt($('#carousel').css("margin-left").replace("px", "")) == -2000) {
+    if ( parseInt($('#carousel').css("margin-left").replace("px", "")) == -600) {
       $('#carousel').css("margin-left", "+=0")
     }
     else {
@@ -18,6 +18,19 @@ $(document).ready(function() {
       $('#carousel').css("margin-left", "+=500");
     }
   })
+  var searchBarPosition = $(".Navbar-sticky").offset().top;
 
+$(window).scroll(function() {
+  
+  var currentScroll = $(window).scrollTop();
+  console.log(currentScroll);
+  
+  if (currentScroll < searchBarPosition) {
+    console.log("hello");
+    $(".Navbar-sticky").removeClass("Navbar-sticky-fixed");
+  } else {
+    $(".Navbar-sticky").addClass("Navbar-sticky-fixed");
+  }
+});
 });
 
