@@ -1,0 +1,106 @@
+body {
+    font-family: Lato;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+}
+/* */
+/* Navbar start */
+.Pahc-logo {
+    max-width: 100px;
+    float: left;
+}
+
+#Topbar-static {
+    background-color: aliceblue;
+    width: 100%;
+}
+#title {
+    font-size: -webkit-xxx-large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.nav-item {
+    display: -webkit-inline-box;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Navbar-sticky {
+    background-color: antiquewhite;
+}
+/* Navbar end */
+
+/* Event Start */
+.events {
+    max-height: 500px;
+}
+
+/* Event end */
+
+/* About start */
+
+
+#Mission-statement-section {
+    background-color: salmon;
+    padding: 100px;
+}
+#Mission-statement-header {
+    font-size: xx-large;
+    text-align: center;
+    padding: 50px;
+}
+#Missions-statement {
+    text-align: center;
+}
+.Core-pic {
+    border-radius: 50%;
+    max-height: 100px;
+    float: left;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    top: calc(50% - (150px / 2));
+    left: calc(50% - (960px / 2));
+}
+#Core-section {
+    height: 400px;
+    background-color: aquamarine;
+}
+.Core-container {
+    background-color: antiquewhite;
+    height: 150px;
+    margin: 10px;
+}
+/* About end */
+
+/* Programs start*/
+.carousel-container {
+    width: 960px;
+    top: calc(50% - (500px / 2));
+    left: calc(50% - (960px / 2));
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel {
+    width: 4800px;
+    height: 500px;
+    margin-left: 0px;
+    -webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+    width: 960px;
+    position: relative;
+    height: 500px;
+    float: left;
+}
+/* Programs end */
+
+/* Contact start */
+
+/* Contact end */
