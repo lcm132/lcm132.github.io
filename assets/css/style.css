@@ -39,6 +39,7 @@ body {
     padding: 10px;
     height:22px;
     width: 100%;
+    box-shadow: 1px 1px 5px grey;
 }
 .Navbar-sticky-fixed {
   position: fixed;
@@ -50,39 +51,24 @@ body {
 
 /* Event Start */
 .events {
-    max-height: 500px;
+    max-height: 300px;
     text-align: center;
     position: relative;
-    left: calc(50% - (700px / 2));
-    top: calc(50% - (500px / 2));
+    left: calc(50% - (800px / 2));
+    top: calc(50% - (300px / 2));
+
 }
-.banner{
-    position: relative; 
-    overflow: auto; 
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    padding: 0px;
+.slider-container{
+    max-height: 300px;
+    text-align: center;
+    position: relative;
+}
+.event-section {
+    text-align: center;
+    height: 300px;
+    background-color: #D3D3D3;
 }
 
-.banner ul{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-.banner li { 
-    padding: 0px;
-    margin: 0px;
-    float: left;
-    height: 400px;
-    width: 800px;
-     }
-
-.banner ul li img{
-    padding: 0px;
-    margin: 0px;
-}
 /* Event end */
 
 /* About start */
@@ -176,7 +162,7 @@ body {
     height: 40px;
     padding: 10px;
     left: 60px;
-    top: 75%;
+    top: 80%;
     margin-top: -30px;
     cursor: pointer;
     border-radius: 50%;
@@ -189,7 +175,7 @@ body {
     height: 40px;
     padding: 10px;
     right: 60px;
-    top: 75%;
+    top: 80%;
     margin-top: -30px;
     cursor: pointer;
     border-radius: 50%;
@@ -211,8 +197,10 @@ body {
 /* Contact start */
 .contact-card {
     float: left;
-    height: 300px;
+    height: 100px;
     width: 300px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     margin-left: 100px;
     margin-right: 50px;
     padding: 20px;

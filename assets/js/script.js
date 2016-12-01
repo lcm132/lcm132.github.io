@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  $('.my-slider').slick();
      $("#carousel-next").click(function() {
 
     if ( parseInt($('#carousel').css("margin-left").replace("px", "")) == -600) {
@@ -33,4 +34,3 @@ $(window).scroll(function() {
   }
 });
 });
-
